@@ -4,7 +4,7 @@ body {
 .wrapper {
     max-width: 900px;
     margin: 0 auto;
-    box-shadow: -1px 3px 5px 0px #cacaca;
+    box-shadow: -0.0625em 0.1875em 0.3125em 0em #cacaca;
     background: #fff2bf;
 }
 nav ul {
@@ -16,7 +16,7 @@ nav ul li {
     nav ul li a {
         color: #00a3ff;
         text-transform: uppercase;
-        margin-right: 20px;
+        margin-right: 1.25em;
         text-decoration:none
     }
     nav ul li a:hover {
@@ -25,17 +25,17 @@ nav ul li {
     }
 header {
     background: #e6e6e6;
-    padding: 10px 0;
+    padding: 0.625em 0;
 }
 section {
-    padding:20px;
+    padding:1.25em;
 }
 section img, section iframe {
     max-width:100%;
 }
 h1 {
     color: #0068ff;
-    font-size: 36px;
+    font-size: 2.25em;
 }
 h2 {
     color: #0052c8;
@@ -46,5 +46,5 @@ h3 {
 
 footer {
     background: #e6e6e6;
-    padding:10px;
+    padding:0.625em;
 }
